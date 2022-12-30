@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "ad195ec9-b15b-46a2-bbe2-502465de9e65",
+		"name": "informes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "informe_total",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/api/informes/ver/informe/total",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"informes",
+						"ver",
+						"informe",
+						"total"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "informe_cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/api/informes/ver/informe/cliente/123456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"informes",
+						"ver",
+						"informe",
+						"cliente",
+						"123456"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
